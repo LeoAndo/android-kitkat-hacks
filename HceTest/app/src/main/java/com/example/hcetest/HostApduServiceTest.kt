@@ -36,6 +36,8 @@ class HostApduServiceTest : HostApduService() {
 
     companion object {
         private const val TAG = "HostApduServiceTest"
+
+        // ISO7816-4 に準拠
         private val RESPONSE_OK = byteArrayOf(0x90.toByte(), 0x00.toByte())
         private val RESPONSE_NG = byteArrayOf(0x00.toByte(), 0x00.toByte())
         private val SELECT_CMD =
