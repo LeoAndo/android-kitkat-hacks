@@ -3,3 +3,7 @@
 
 # 開発メモ
 https://github.com/LeoAndo/android-kitkat-hacks/issues/1<br>
+
+# refs
+https://github.com/BRILLIANTSERVICE-CO/android-kitkat-hacks
+https://www.oreilly.co.jp/books/9784873116990/
