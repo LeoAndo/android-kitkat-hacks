@@ -21,12 +21,6 @@ class MainActivity : AppCompatActivity(), ReaderCallback {
         mNfcAdapter = NfcAdapter.getDefaultAdapter(this)
     }
 
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        menuInflater.inflate(R.menu.main, menu)
-        return true
-    }
-
     public override fun onResume() {
         super.onResume()
         // HCEアプリを検出対象にする場合、FLAG_READER_NFC_A / FLAG_READER_SKIP_NDEF_CHECKの設定が推奨されている
